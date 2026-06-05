@@ -1508,7 +1508,8 @@ canvas{display:block;}
 // ── WebSocket ──────────────────────────────────────────────────────────────
 let ws=null, wsReady=false;
 function connectWS(){
-  ws=new WebSocket('ws://'+location.host);
+  const _proto = location.protocol==='https:' ? 'wss://' : 'ws://';
+  ws=new WebSocket(_proto+location.host);
   ws.onopen=()=>{wsReady=true;};
   ws.onclose=()=>{
     wsReady=false;
