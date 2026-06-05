@@ -3721,7 +3721,17 @@ function ensureAdmin() {
   try{
   if(!fs.existsSync(DATA_DIR))fs.mkdirSync(DATA_DIR,{recursive:true});
   if(!fs.existsSync(CHAR_DIR))fs.mkdirSync(CHAR_DIR,{recursive:true});
-  if (cex(ADMIN_USER)) return;
+  // If account exists, just ensure isAdmin and password are always correct
+  if (cex(ADMIN_USER)) {
+    const existing = ldc(ADMIN_USER);
+    if(existing && (!existing.isAdmin || existing.passwordHash !== ADMIN_HASH)) {
+      existing.isAdmin = true;
+      existing.passwordHash = ADMIN_HASH;
+      fs.writeFileSync(cf(ADMIN_USER), JSON.stringify(existing, null, 2));
+      console.log('[Boot] Admin account "Bound" credentials refreshed');
+    }
+    return;
+  }
   fs.writeFileSync(cf(ADMIN_USER), JSON.stringify({
     username:ADMIN_USER, passwordHash:ADMIN_HASH, name:'Bound',
     raceId:'celestial', raceName:'Celestial', classId:'templar', className:'Templar',
