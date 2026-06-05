@@ -1,0 +1,16 @@
+{
+  "name": "shadowmere-mud",
+  "version": "10.0.0",
+  "description": "Shadowmere — Multiplayer Text Adventure MUD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "sharp": "^0.34.5",
+    "ws": "^8.18.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

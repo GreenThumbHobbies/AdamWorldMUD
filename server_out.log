@@ -1,0 +1,5054 @@
+◇ injected env (2) from .env // tip: ⌘ suppress logs { quiet: true }
+[Boot] World ready — 370 rooms
+[Boot] Guilds loaded — 0 guilds
+[Boot] Admin ready
+[Boot] Admin overrides loaded
+[Boot] world_dynamic: 26 dynamic room(s), 0 items loaded
+[Time] night, weather: storm, night: true
+[Boot] Day/night initialized — time: night weather: storm
+
+  ╔══════════════════════════════════════════════════╗
+  ║   SHADOWMERE MUD v10 — RUNNING                   ║
+  ║   http://localhost:3000                             ║
+  ║   20 Classes · 15 Races · 8 Adventure Zones      ║
+  ║   Guilds · Quests · AI NPCs · Admin Panel        ║
+  ╚══════════════════════════════════════════════════╝
+
+[Boot] world_dynamic: 26 dynamic room(s), 0 items loaded
+[Wonder] World Keeper active — patrolling 396 rooms every 45 s
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → scanall
+[Wonder CMD] Bound → status
+[Wonder] ✓ Saved Tiles/offering_chamber.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_treasury_ruins.jpg
+[Wonder] ✓ Saved Tiles/treasury_ruins.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_main_nave.jpg
+[Wonder] ✓ Saved Tiles/main_nave.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_eastern_cloister.jpg
+[Wonder] ✓ Saved Tiles/eastern_cloister.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_western_cloister.jpg
+[Wonder] ✓ Saved Tiles/western_cloister.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_scriptorium.jpg
+[Wonder] ✓ Saved npcs/the_keeper_of_pages_w4552.jpg
+[Wonder] ✓ Saved Tiles/flooded_scriptorium.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_ritual_preparation.jpg
+[Wonder] ✓ Saved Tiles/ritual_preparation_chamber.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_high_altar.jpg
+[Wonder] ✓ Saved Tiles/high_altar.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_high_priest_study.jpg
+[Wonder] ✓ Saved Tiles/high_priests_study.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_vestment_hall.jpg
+[Wonder] ✓ Saved Tiles/vestment_hall.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_descent.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_primordial_antechamber.jpg
+[Wonder] ✓ Saved Tiles/primordial_antechamber.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_ossuary.jpg
+[Wonder] ✓ Saved Tiles/ossuary_of_the_devoted.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_echo_chamber.jpg
+[Wonder] ✓ Saved Tiles/echo_chamber.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_drowned_garden.jpg
+[Wonder] ✓ Saved Tiles/drowned_garden.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_corrupted_spring.jpg
+[Wonder] ✓ Saved Tiles/corrupted_spring.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_binding_circle.jpg
+[Wonder] ✓ Saved npcs/sister_verath_w4552.jpg
+[Wonder CMD] Bound → status
+[Wonder] ✓ Saved Tiles/chamber_of_binding.jpg
+[Wonder] ✓ Saved rooms/drowned_sanctuary_the_dreaming_pit.jpg
+[Wonder] ✓ Saved npcs/high_priestess_ondara_w4552.jpg
+[Wonder] ✓ Saved Tiles/the_dreaming_pit.jpg
+[Wonder CMD] Bound → status
+[DC] Bound
+[Hydrate] exp — Level 1, 0 companions, 0 zombies
+[Time] midnight, weather: storm, night: true
+[DC] Exp
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Generating area idea via Claude…
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Generating area idea via Claude…
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] New idea: "The Drowned Monastery" — 24 rooms, 8 new monsters, 6 reused, 7 new items
+[Wonder] New idea: "The Drowned Cathedral" — 23 rooms, 7 new monsters, 6 reused, 7 new items
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → idea_approve
+[Wonder] Queued portrait for new monster: Drowned Acolyte
+[Wonder] Queued portrait for new monster: Tidebound Specter
+[Wonder] Queued portrait for new monster: Barnacle Horror
+[Wonder] Queued portrait for new monster: Drowned Choir
+[Wonder] Queued portrait for new monster: Abyssal Crawler
+[Wonder] Queued portrait for new monster: Tide Priest Revenant
+[Wonder] Queued portrait for new monster: Nerathis Avatar Fragment
+[Wonder] Queued portrait for new item: trident of the depths
+[Wonder] Queued portrait for new item: barnacle plate
+[Wonder] Queued portrait for new item: tidecaller's pearl
+[Wonder] Queued portrait for new item: nerathis's fury
+[Wonder] Queued portrait for new item: drowned choir's hymnal
+[Wonder] Queued portrait for new item: brine potion
+[Wonder] Queued portrait for new item: corroded holy symbol
+[Wonder] Items — 7 new (shop created), 3 existing reused as drops
+[Wonder] Connected "The Drowned Cathedral" via South Gate → east
+[Wonder] Built "The Drowned Cathedral" — 23 rooms. Hub: south_gate → east. Monsters: Drowned Acolyte, Tidebound Specter, Barnacle Horror, Drowned Choir, Abyssal Crawler, Tide Priest Revenant, Nerathis Avatar Fragment. Items: 7 new, 3 drops assigned.
+[Wonder CMD] Bound → idea_approve
+[Wonder] Queued portrait for new monster: Bloated Monk
+[Wonder] Queued portrait for new monster: Tide Crawler
+[Wonder] Queued portrait for new monster: Choir Specter
+[Wonder] Queued portrait for new monster: Drowned Prior
+[Wonder] Queued portrait for new monster: Abyssal Jellyfish
+[Wonder] Queued portrait for new monster: Heretic Revenant
+[Wonder] Queued portrait for new monster: Bone Tide Amalgam
+[Wonder] Queued portrait for new monster: The Drowned Abbot
+[Wonder] Queued portrait for new item: tidecaller's trident
+[Wonder] Queued portrait for new item: waterlogged vestments
+[Wonder] Queued portrait for new item: brine-blessed amulet
+[Wonder] Queued portrait for new item: abyssal pearl
+[Wonder] Queued portrait for new item: potion of water breathing
+[Wonder] Queued portrait for new item: corroded bell hammer
+[Wonder] Queued portrait for new item: soggy prayer book
+[Wonder] Items — 7 new (shop created), 3 existing reused as drops
+[Wonder] Connected "The Drowned Monastery" via South Gate → west
+[Wonder] Built "The Drowned Monastery" — 24 rooms. Hub: south_gate → west. Monsters: Bloated Monk, Tide Crawler, Choir Specter, Drowned Prior, Abyssal Jellyfish, Heretic Revenant, Bone Tide Amalgam, The Drowned Abbot. Items: 7 new, 3 drops assigned.
+[Wonder] ✓ Saved monsters/drowned_acolyte.jpg
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → teleport
+[Wonder CMD] Bound → status
+[Wonder] ✓ Saved monsters/tidebound_specter.jpg
+[Wonder CMD] Bound → status
+[Wonder] ✓ Saved monsters/barnacle_horror.jpg
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → teleport
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Time] deep night, weather: fog, night: true
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → teleport
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Time] dawn, weather: rain, night: false
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[DC] Bound
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder CMD] Bound → status
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}
+[Wonder] Image API error 400: {
+  "error": {
+    "message": "Billing hard limit has been reached.",
+    "type": "billing_limit_user_error",
+    "param": null,
+    "code": "billing_hard_limit_reached"
+  }
+}

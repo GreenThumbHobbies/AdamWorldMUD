@@ -1,0 +1,12 @@
+# Environment variables — never commit this
+.env
+
+# Dependencies
+node_modules/
+
+# Player data
+data/
+
+# OS files
+.DS_Store
+Thumbs.db

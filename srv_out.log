@@ -1,0 +1,50 @@
+[Boot] World ready — 370 rooms
+[Boot] Guilds loaded — 0 guilds
+[Boot] Admin ready
+[Boot] Admin overrides loaded
+[Time] dawn, weather: rain, night: false
+[Boot] Day/night initialized — time: dawn weather: rain
+
+  ╔══════════════════════════════════════════════════╗
+  ║   SHADOWMERE MUD v10 — RUNNING                   ║
+  ║   http://localhost:3000                             ║
+  ║   20 Classes · 15 Races · 8 Adventure Zones      ║
+  ║   Guilds · Quests · AI NPCs · Admin Panel        ║
+  ╚══════════════════════════════════════════════════╝
+
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Time] morning, weather: fog, night: false
+[Time] afternoon, weather: fog, night: false
+[Time] dusk, weather: fog, night: false
+[Time] evening, weather: rain, night: true
+[Time] night, weather: rain, night: true
+[DC] Bound
+[Time] midnight, weather: fog, night: true
+[Time] deep night, weather: fog, night: true
+[Time] dawn, weather: clear, night: false
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Time] morning, weather: fog, night: false
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Time] afternoon, weather: clear, night: false
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[DC] Bound
+[Hydrate] bound — Level 99, 0 companions, 0 zombies
+[Time] dusk, weather: clear, night: false
