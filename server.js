@@ -3749,8 +3749,14 @@ console.log('[Boot] Admin ready');
 
 // ── Admin overrides (persist desc/detail edits made in-game) ─────────────
 const OVERRIDES_FILE = path.join(DATA_DIR, 'admin_overrides.json');
+const OVERRIDES_FILE_SRC = path.join(__dirname, 'data', 'admin_overrides.json');
 function loadAdminOverrides(){
   try{
+    // On Render first boot: seed from project copy if disk doesn't have it
+    if(!fs.existsSync(OVERRIDES_FILE) && fs.existsSync(OVERRIDES_FILE_SRC)){
+      fs.copyFileSync(OVERRIDES_FILE_SRC, OVERRIDES_FILE);
+      console.log('[Boot] Seeded admin_overrides.json from project to disk');
+    }
     const ov=JSON.parse(fs.readFileSync(OVERRIDES_FILE,'utf8'));
     // Apply room overrides
     if(ov.rooms) Object.entries(ov.rooms).forEach(([id,v])=>{
@@ -3817,9 +3823,15 @@ loadDynamic(false); // rooms + WT now; NPCs after NPCS const is defined (in Wond
 
 // ── Explore Zones (admin/Wonder-generated sub-areas) ─────────────────────────
 const EZ_FILE = path.join(DATA_DIR, 'explore_zones.json');
+const EZ_FILE_SRC = path.join(__dirname, 'data', 'explore_zones.json');
 let _ezData = {tiles:{}, rooms:{}, items:{}};
 function loadExploreZones(){
   try{
+    // On Render first boot: disk won't have the file yet — seed from project copy
+    if(!fs.existsSync(EZ_FILE) && fs.existsSync(EZ_FILE_SRC)){
+      fs.copyFileSync(EZ_FILE_SRC, EZ_FILE);
+      console.log('[Boot] Seeded explore_zones.json from project to disk');
+    }
     _ezData = JSON.parse(fs.readFileSync(EZ_FILE,'utf8'));
     // Merge explore zone rooms into world
     Object.entries(_ezData.rooms||{}).forEach(([k,v])=>{ world[k]=v; });
