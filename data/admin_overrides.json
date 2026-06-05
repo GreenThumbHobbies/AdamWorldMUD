@@ -1,0 +1,993 @@
+{
+  "rooms": {
+    "volcanic_peak": {
+      "img": "crater_rim"
+    },
+    "volcanic_tunnels": {
+      "img": "superheated_tunnels"
+    },
+    "volcano_boss": {
+      "img": "the_magma_throne"
+    },
+    "deadwood_apothecary": {
+      "desc": "A clean apothecary fragrant with dried herbs and something sharper. Sister Maren, a pale woman in healer's robes, works at her bench grinding rare components. More advanced compounds than Shadowmere.",
+      "detail": "Sister Maren's apothecary is clean in the way operating rooms are clean — not for comfort, but for accuracy. Every surface is scrubbed. Every container is sealed. Every label is written in the same hand at the same size with the same black ink, because inconsistency introduces error, and error in her work kills people.\n\nThe compounds she produces here are more advanced than anything available in Shadowmere. She has access to ingredients that require going places most apothecaries won't go — deepwood roots from the swamp heart, components from creatures that require serious fighting to find. She considers this part of the job.\n\nShe came to Ashford three years ago. She has not explained why she chose this particular frontier village. The villagers have learned not to ask."
+    },
+    "grimwald_back": {
+      "img": "grimwald_back"
+    },
+    "arcade_theater": {
+      "img": "arcade_theater"
+    },
+    "arcade_trail": {
+      "img": "arcade_trail"
+    },
+    "arcade_c64": {
+      "img": "arcade_c64"
+    },
+    "map_shop": {
+      "img": "map_shop"
+    },
+    "ashford_shrine": {
+      "img": "ashford_shrine"
+    },
+    "ashford_outskirts": {
+      "img": "ashford_outskirts"
+    },
+    "volcanic_ridge": {
+      "img": "volcanic_ridge"
+    },
+    "ash_canyon": {
+      "img": "ash_canyon"
+    },
+    "cinder_plateau": {
+      "img": "cinder_plateau"
+    },
+    "deep_forge": {
+      "img": "deep_forge"
+    },
+    "lava_fields": {
+      "img": "lava_fields"
+    },
+    "molten_river": {
+      "img": "molten_river"
+    },
+    "fire_shrine": {
+      "img": "fire_shrine"
+    },
+    "sulfur_vents": {
+      "img": "sulfur_vents"
+    },
+    "magma_chamber": {
+      "img": "magma_chamber"
+    },
+    "smelt_cavern": {
+      "img": "smelt_cavern"
+    },
+    "crater_overlook": {
+      "img": "crater_overlook"
+    },
+    "basalt_bridge": {
+      "img": "basalt_bridge"
+    },
+    "volcanic_secret": {
+      "img": "volcanic_secret"
+    },
+    "fire_sanctum": {
+      "img": "fire_sanctum"
+    },
+    "cinder_tomb": {
+      "img": "cinder_tomb"
+    },
+    "glacier_edge": {
+      "img": "glacier_edge"
+    },
+    "tundra_shrine": {
+      "img": "tundra_shrine"
+    },
+    "ice_shelf": {
+      "img": "ice_shelf"
+    },
+    "frozen_depths": {
+      "img": "frozen_depths"
+    },
+    "snowdrift_hollow": {
+      "img": "snowdrift_hollow"
+    },
+    "blizzard_pass": {
+      "img": "blizzard_pass"
+    },
+    "white_tomb": {
+      "img": "white_tomb"
+    },
+    "ice_labyrinth": {
+      "img": "ice_labyrinth"
+    },
+    "crystal_ice_hall": {
+      "img": "crystal_ice_hall"
+    },
+    "glacial_rift": {
+      "img": "glacial_rift"
+    },
+    "ancient_glacier": {
+      "img": "ancient_glacier"
+    },
+    "frozen_barracks": {
+      "img": "frozen_barracks"
+    },
+    "armory_of_ice": {
+      "img": "armory_of_ice"
+    },
+    "frozen_vault": {
+      "img": "frozen_vault"
+    },
+    "upper_winds": {
+      "img": "upper_winds"
+    },
+    "wind_shrine": {
+      "img": "wind_shrine"
+    },
+    "gale_platform": {
+      "img": "gale_platform"
+    },
+    "hawk_eyrie": {
+      "img": "hawk_eyrie"
+    },
+    "aerie_peak": {
+      "img": "aerie_peak"
+    },
+    "sky_sanctum": {
+      "img": "sky_sanctum"
+    },
+    "heaven_gate": {
+      "img": "heaven_gate"
+    },
+    "cloud_maze": {
+      "img": "cloud_maze"
+    },
+    "storm_corridor": {
+      "img": "storm_corridor"
+    },
+    "thunder_vault": {
+      "img": "thunder_vault"
+    },
+    "ruined_observatory": {
+      "img": "ruined_observatory"
+    },
+    "ancient_sky_temple": {
+      "img": "ancient_sky_temple"
+    },
+    "floating_garden": {
+      "img": "floating_garden"
+    },
+    "sky_garden_deep": {
+      "img": "sky_garden_deep"
+    },
+    "cloud_grotto": {
+      "img": "cloud_grotto"
+    },
+    "shadow_swamp": {
+      "img": "shadow_swamp"
+    },
+    "murk_hollow": {
+      "img": "murk_hollow"
+    },
+    "dread_mire": {
+      "img": "dread_mire"
+    },
+    "shadow_tomb": {
+      "img": "shadow_tomb"
+    },
+    "void_wastes": {
+      "img": "void_wastes"
+    },
+    "null_plains": {
+      "img": "null_plains"
+    },
+    "shadow_shrine": {
+      "img": "shadow_shrine"
+    },
+    "erasure_point": {
+      "img": "erasure_point"
+    },
+    "screaming_grove": {
+      "img": "screaming_grove"
+    },
+    "wailing_abyss": {
+      "img": "wailing_abyss"
+    },
+    "fear_cavern": {
+      "img": "fear_cavern"
+    },
+    "dread_vault": {
+      "img": "dread_vault"
+    },
+    "nightmare_altar": {
+      "img": "nightmare_altar"
+    },
+    "citadel_ramparts": {
+      "img": "citadel_ramparts"
+    },
+    "void_spire": {
+      "img": "void_spire"
+    },
+    "crystal_foyer": {
+      "img": "crystal_foyer"
+    },
+    "refraction_hall": {
+      "img": "refraction_hall"
+    },
+    "prismatic_cave": {
+      "img": "prismatic_cave"
+    },
+    "crystal_tomb": {
+      "img": "crystal_tomb"
+    },
+    "luminite_passage": {
+      "img": "luminite_passage"
+    },
+    "gem_grotto": {
+      "img": "gem_grotto"
+    },
+    "crystal_shrine": {
+      "img": "crystal_shrine"
+    },
+    "deep_crystal_lair": {
+      "img": "deep_crystal_lair"
+    },
+    "vault_corridor": {
+      "img": "vault_corridor"
+    },
+    "hidden_treasury": {
+      "img": "hidden_treasury"
+    },
+    "diamond_mines": {
+      "img": "diamond_mines"
+    },
+    "mine_shaft": {
+      "img": "mine_shaft"
+    },
+    "lost_seam": {
+      "img": "lost_seam"
+    },
+    "deep_resonance_chamber": {
+      "img": "deep_resonance_chamber"
+    },
+    "crystal_heart": {
+      "img": "crystal_heart"
+    },
+    "haunted_garden": {
+      "img": "haunted_garden"
+    },
+    "overgrown_path": {
+      "img": "overgrown_path"
+    },
+    "tomb_grove": {
+      "img": "tomb_grove"
+    },
+    "keep_shrine": {
+      "img": "keep_shrine"
+    },
+    "ancient_crypt": {
+      "img": "ancient_crypt"
+    },
+    "chapel_ruins": {
+      "img": "chapel_ruins"
+    },
+    "sacristy": {
+      "img": "sacristy"
+    },
+    "crypt_descent": {
+      "img": "crypt_descent"
+    },
+    "torture_chamber": {
+      "img": "torture_chamber"
+    },
+    "pit_of_souls": {
+      "img": "pit_of_souls"
+    },
+    "forgotten_wing": {
+      "img": "forgotten_wing"
+    },
+    "collapsed_wing": {
+      "img": "collapsed_wing"
+    },
+    "sealed_vault": {
+      "img": "sealed_vault"
+    },
+    "lord_chambers": {
+      "img": "lord_chambers"
+    },
+    "keep_tower": {
+      "img": "keep_tower"
+    },
+    "silver_current": {
+      "img": "silver_current"
+    },
+    "planar_reef": {
+      "img": "planar_reef"
+    },
+    "void_current": {
+      "img": "void_current"
+    },
+    "astral_abyss": {
+      "img": "astral_abyss"
+    },
+    "astral_shallows": {
+      "img": "astral_shallows"
+    },
+    "drift_zone": {
+      "img": "drift_zone"
+    },
+    "astral_shrine": {
+      "img": "astral_shrine"
+    },
+    "the_deep_astral": {
+      "img": "the_deep_astral"
+    },
+    "wreck_field": {
+      "img": "wreck_field"
+    },
+    "plunder_hold": {
+      "img": "plunder_hold"
+    },
+    "ghost_ship": {
+      "img": "ghost_ship"
+    },
+    "ship_hold": {
+      "img": "ship_hold"
+    },
+    "captains_vault": {
+      "img": "captains_vault"
+    },
+    "vortex_edge": {
+      "img": "vortex_edge"
+    },
+    "eye_of_void": {
+      "img": "eye_of_void"
+    },
+    "outer_void": {
+      "img": "outer_void"
+    },
+    "void_expanse": {
+      "img": "void_expanse"
+    },
+    "unmaking_grounds": {
+      "img": "unmaking_grounds"
+    },
+    "the_nothing_edge": {
+      "img": "the_nothing_edge"
+    },
+    "null_corridor": {
+      "img": "null_corridor"
+    },
+    "silence_chamber": {
+      "img": "silence_chamber"
+    },
+    "void_shrine": {
+      "img": "void_shrine"
+    },
+    "null_throne": {
+      "img": "null_throne"
+    },
+    "forbidden_archive": {
+      "img": "forbidden_archive"
+    },
+    "sealed_codex": {
+      "img": "sealed_codex"
+    },
+    "reading_hall": {
+      "img": "reading_hall"
+    },
+    "manuscript_vault": {
+      "img": "manuscript_vault"
+    },
+    "index_of_endings": {
+      "img": "index_of_endings"
+    },
+    "antechamber_of_void": {
+      "img": "antechamber_of_void"
+    },
+    "throne_annex": {
+      "img": "throne_annex"
+    },
+    "iron_wastes": {
+      "img": "iron_wastes"
+    },
+    "iron_depths": {
+      "img": "iron_depths"
+    },
+    "furnace_core": {
+      "img": "furnace_core"
+    },
+    "smelting_pit": {
+      "img": "smelting_pit"
+    },
+    "slag_heap": {
+      "img": "slag_heap"
+    },
+    "rust_fields": {
+      "img": "rust_fields"
+    },
+    "oxidation_plains": {
+      "img": "oxidation_plains"
+    },
+    "scrap_heap": {
+      "img": "scrap_heap"
+    },
+    "corroded_canyon": {
+      "img": "corroded_canyon"
+    },
+    "rust_tomb": {
+      "img": "rust_tomb"
+    },
+    "war_remnants": {
+      "img": "war_remnants"
+    },
+    "battle_scarred_road": {
+      "img": "battle_scarred_road"
+    },
+    "monument_of_war": {
+      "img": "monument_of_war"
+    },
+    "gear_chamber": {
+      "img": "gear_chamber"
+    },
+    "automaton_bay": {
+      "img": "automaton_bay"
+    },
+    "assembly_hall": {
+      "img": "assembly_hall"
+    },
+    "ore_veins": {
+      "img": "ore_veins"
+    },
+    "iron_wastes_shrine": {
+      "img": "iron_wastes_shrine"
+    },
+    "colossus_approach": {
+      "img": "colossus_approach"
+    },
+    "colossus_throne": {
+      "img": "colossus_throne"
+    },
+    "necropolis_gate": {
+      "img": "necropolis_gate"
+    },
+    "drowned_avenue": {
+      "img": "drowned_avenue"
+    },
+    "sunken_plaza": {
+      "img": "sunken_plaza"
+    },
+    "flooded_tower": {
+      "img": "flooded_tower"
+    },
+    "submerged_library": {
+      "img": "submerged_library"
+    },
+    "tide_vault": {
+      "img": "tide_vault"
+    },
+    "the_deep_crypt": {
+      "img": "the_deep_crypt"
+    },
+    "crypt_district": {
+      "img": "crypt_district"
+    },
+    "mausoleum_row": {
+      "img": "mausoleum_row"
+    },
+    "grand_crypt": {
+      "img": "grand_crypt"
+    },
+    "ossuary": {
+      "img": "ossuary"
+    },
+    "bone_vault": {
+      "img": "bone_vault"
+    },
+    "bone_harbor": {
+      "img": "bone_harbor"
+    },
+    "shipwreck_bay": {
+      "img": "shipwreck_bay"
+    },
+    "leviathan_dock": {
+      "img": "leviathan_dock"
+    },
+    "lich_antechamber": {
+      "img": "lich_antechamber"
+    },
+    "necropolis_shrine": {
+      "img": "necropolis_shrine"
+    },
+    "sovereign_approach": {
+      "img": "sovereign_approach"
+    },
+    "lich_throne": {
+      "img": "lich_throne"
+    },
+    "ember_gate": {
+      "img": "ember_gate"
+    },
+    "ember_courtyard": {
+      "img": "ember_courtyard"
+    },
+    "drake_roost": {
+      "img": "drake_roost"
+    },
+    "nesting_cavern": {
+      "img": "nesting_cavern"
+    },
+    "fire_spire": {
+      "img": "fire_spire"
+    },
+    "lava_barracks": {
+      "img": "lava_barracks"
+    },
+    "armory_of_flame": {
+      "img": "armory_of_flame"
+    },
+    "siege_hall": {
+      "img": "siege_hall"
+    },
+    "forge_of_conquest": {
+      "img": "forge_of_conquest"
+    },
+    "molten_vault": {
+      "img": "molten_vault"
+    },
+    "dragon_treasury": {
+      "img": "dragon_treasury"
+    },
+    "ashfall_plain": {
+      "img": "ashfall_plain"
+    },
+    "cinder_wastes": {
+      "img": "cinder_wastes"
+    },
+    "ember_shrine": {
+      "img": "ember_shrine"
+    },
+    "ash_cathedral": {
+      "img": "ash_cathedral"
+    },
+    "heated_corridor": {
+      "img": "heated_corridor"
+    },
+    "wyrm_den": {
+      "img": "wyrm_den"
+    },
+    "deep_wyrm_lair": {
+      "img": "deep_wyrm_lair"
+    },
+    "wyrm_throne_approach": {
+      "img": "wyrm_throne_approach"
+    },
+    "magma_wyrm_throne": {
+      "img": "magma_wyrm_throne"
+    },
+    "shattered_entry": {
+      "img": "shattered_entry"
+    },
+    "fracture_zone": {
+      "img": "fracture_zone"
+    },
+    "broken_sky": {
+      "img": "broken_sky"
+    },
+    "sky_fracture": {
+      "img": "sky_fracture"
+    },
+    "edge_of_reality": {
+      "img": "edge_of_reality"
+    },
+    "plane_debris": {
+      "img": "plane_debris"
+    },
+    "construct_field": {
+      "img": "construct_field"
+    },
+    "construct_forge": {
+      "img": "construct_forge"
+    },
+    "assembly_of_planes": {
+      "img": "assembly_of_planes"
+    },
+    "debris_sea": {
+      "img": "debris_sea"
+    },
+    "shattered_vault": {
+      "img": "shattered_vault"
+    },
+    "rift_corridor": {
+      "img": "rift_corridor"
+    },
+    "dimensional_scar": {
+      "img": "dimensional_scar"
+    },
+    "null_horizon": {
+      "img": "null_horizon"
+    },
+    "shattered_shrine": {
+      "img": "shattered_shrine"
+    },
+    "reality_tear": {
+      "img": "reality_tear"
+    },
+    "unstable_ground": {
+      "img": "unstable_ground"
+    },
+    "collapse_point": {
+      "img": "collapse_point"
+    },
+    "plane_breaker_approach": {
+      "img": "plane_breaker_approach"
+    },
+    "the_breaking_point": {
+      "img": "the_breaking_point"
+    },
+    "abyssal_approach": {
+      "img": "abyssal_approach"
+    },
+    "abyss_threshold": {
+      "img": "abyss_threshold"
+    },
+    "fallen_cathedral": {
+      "img": "fallen_cathedral"
+    },
+    "corruption_chapel": {
+      "img": "corruption_chapel"
+    },
+    "sanctum_of_corruption": {
+      "img": "sanctum_of_corruption"
+    },
+    "fallen_bastion": {
+      "img": "fallen_bastion"
+    },
+    "shattered_ramparts": {
+      "img": "shattered_ramparts"
+    },
+    "tower_of_ruin": {
+      "img": "tower_of_ruin"
+    },
+    "bastion_keep": {
+      "img": "bastion_keep"
+    },
+    "demon_barracks": {
+      "img": "demon_barracks"
+    },
+    "abyssal_vault": {
+      "img": "abyssal_vault"
+    },
+    "corrupted_heavens": {
+      "img": "corrupted_heavens"
+    },
+    "celestial_ruin": {
+      "img": "celestial_ruin"
+    },
+    "abyssal_shrine": {
+      "img": "abyssal_shrine"
+    },
+    "throne_of_falls": {
+      "img": "throne_of_falls"
+    },
+    "angel_graveyard": {
+      "img": "angel_graveyard"
+    },
+    "halo_vault": {
+      "img": "halo_vault"
+    },
+    "seraph_lair": {
+      "img": "seraph_lair"
+    },
+    "archon_approach": {
+      "img": "archon_approach"
+    },
+    "throne_of_the_dread": {
+      "img": "throne_of_the_dread"
+    },
+    "void_throne_gate": {
+      "img": "void_throne_gate"
+    },
+    "throne_approach_1": {
+      "img": "throne_approach_1"
+    },
+    "throne_approach_2": {
+      "img": "throne_approach_2"
+    },
+    "forgotten_shrine": {
+      "img": "forgotten_shrine"
+    },
+    "antechamber_of_endings": {
+      "img": "antechamber_of_endings"
+    },
+    "void_gallery": {
+      "img": "void_gallery"
+    },
+    "gallery_of_lost": {
+      "img": "gallery_of_lost"
+    },
+    "monument_of_silence": {
+      "img": "monument_of_silence"
+    },
+    "endless_hall": {
+      "img": "endless_hall"
+    },
+    "eternal_vault": {
+      "img": "eternal_vault"
+    },
+    "realm_of_silence": {
+      "img": "realm_of_silence"
+    },
+    "the_last_corridor": {
+      "img": "the_last_corridor"
+    },
+    "void_reliquary": {
+      "img": "void_reliquary"
+    },
+    "herald_chamber": {
+      "img": "herald_chamber"
+    },
+    "incarnate_den": {
+      "img": "incarnate_den"
+    },
+    "horror_vault": {
+      "img": "horror_vault"
+    },
+    "the_void_throne_room": {
+      "img": "the_void_throne_room"
+    },
+    "crystal_hideout_mpt1b3bk": {
+      "img": "crystal_hideout_mpt1b3bk"
+    },
+    "smaller_cavern_mpt1efj3": {
+      "img": "smaller_cavern_mpt1efj3"
+    },
+    "drowned_sanctuary_shore": {
+      "img": "drowned_sanctuary_shore"
+    },
+    "drowned_sanctuary_flooded_stairs": {
+      "img": "drowned_sanctuary_flooded_stairs"
+    },
+    "drowned_sanctuary_entrance_hall": {
+      "img": "drowned_sanctuary_entrance_hall"
+    },
+    "drowned_sanctuary_pilgrim_quarters": {
+      "img": "drowned_sanctuary_pilgrim_quarters"
+    },
+    "drowned_sanctuary_meditation_cells": {
+      "img": "drowned_sanctuary_meditation_cells"
+    },
+    "drowned_sanctuary_forgotten_shrine": {
+      "img": "drowned_sanctuary_forgotten_shrine"
+    },
+    "drowned_sanctuary_offering_chamber": {
+      "img": "drowned_sanctuary_offering_chamber"
+    },
+    "drowned_sanctuary_treasury_ruins": {
+      "img": "drowned_sanctuary_treasury_ruins"
+    },
+    "drowned_sanctuary_main_nave": {
+      "img": "drowned_sanctuary_main_nave"
+    },
+    "drowned_sanctuary_eastern_cloister": {
+      "img": "drowned_sanctuary_eastern_cloister"
+    },
+    "drowned_sanctuary_western_cloister": {
+      "img": "drowned_sanctuary_western_cloister"
+    },
+    "drowned_sanctuary_scriptorium": {
+      "img": "drowned_sanctuary_scriptorium"
+    },
+    "drowned_sanctuary_ritual_preparation": {
+      "img": "drowned_sanctuary_ritual_preparation"
+    },
+    "drowned_sanctuary_high_altar": {
+      "img": "drowned_sanctuary_high_altar"
+    },
+    "drowned_sanctuary_high_priest_study": {
+      "img": "drowned_sanctuary_high_priest_study"
+    },
+    "drowned_sanctuary_vestment_hall": {
+      "img": "drowned_sanctuary_vestment_hall"
+    },
+    "drowned_sanctuary_descent": {
+      "img": "drowned_sanctuary_descent"
+    },
+    "drowned_sanctuary_primordial_antechamber": {
+      "img": "drowned_sanctuary_primordial_antechamber"
+    },
+    "drowned_sanctuary_ossuary": {
+      "img": "drowned_sanctuary_ossuary"
+    },
+    "drowned_sanctuary_echo_chamber": {
+      "img": "drowned_sanctuary_echo_chamber"
+    },
+    "drowned_sanctuary_drowned_garden": {
+      "img": "drowned_sanctuary_drowned_garden"
+    },
+    "drowned_sanctuary_corrupted_spring": {
+      "img": "drowned_sanctuary_corrupted_spring"
+    },
+    "drowned_sanctuary_binding_circle": {
+      "img": "drowned_sanctuary_binding_circle"
+    },
+    "drowned_sanctuary_the_dreaming_pit": {
+      "img": "drowned_sanctuary_the_dreaming_pit"
+    },
+    "drowned_cathedral_sunken_steps": {
+      "img": "drowned_cathedral_sunken_steps"
+    },
+    "drowned_cathedral_flooded_nave": {
+      "img": "drowned_cathedral_flooded_nave"
+    },
+    "drowned_cathedral_eastern_transept": {
+      "img": "drowned_cathedral_eastern_transept"
+    },
+    "drowned_cathedral_western_transept": {
+      "img": "drowned_cathedral_western_transept"
+    },
+    "drowned_cathedral_chapel_of_storms": {
+      "img": "drowned_cathedral_chapel_of_storms"
+    },
+    "drowned_cathedral_confession_pools": {
+      "img": "drowned_cathedral_confession_pools"
+    },
+    "drowned_cathedral_altar_of_tides": {
+      "img": "drowned_cathedral_altar_of_tides"
+    },
+    "drowned_cathedral_clergy_quarters": {
+      "img": "drowned_cathedral_clergy_quarters"
+    },
+    "drowned_cathedral_reliquary": {
+      "img": "drowned_cathedral_reliquary"
+    },
+    "drowned_cathedral_scriptorium": {
+      "img": "drowned_cathedral_scriptorium"
+    },
+    "drowned_cathedral_ossuary_entrance": {
+      "img": "drowned_cathedral_ossuary_entrance"
+    },
+    "drowned_cathedral_bell_tower_base": {
+      "img": "drowned_cathedral_bell_tower_base"
+    },
+    "drowned_cathedral_bell_tower_middle": {
+      "img": "drowned_cathedral_bell_tower_middle"
+    },
+    "drowned_cathedral_bell_tower_peak": {
+      "img": "drowned_cathedral_bell_tower_peak"
+    },
+    "drowned_cathedral_upper_ossuary": {
+      "img": "drowned_cathedral_upper_ossuary"
+    },
+    "drowned_cathedral_tide_priest_tomb": {
+      "img": "drowned_cathedral_tide_priest_tomb"
+    },
+    "drowned_cathedral_drowned_gallery": {
+      "img": "drowned_cathedral_drowned_gallery"
+    },
+    "drowned_cathedral_flooded_crypt": {
+      "img": "drowned_cathedral_flooded_crypt"
+    },
+    "drowned_cathedral_lower_ossuary": {
+      "img": "drowned_cathedral_lower_ossuary"
+    },
+    "drowned_cathedral_abyssal_well": {
+      "img": "drowned_cathedral_abyssal_well"
+    },
+    "drowned_cathedral_sacrificial_pool": {
+      "img": "drowned_cathedral_sacrificial_pool"
+    },
+    "drowned_cathedral_binding_chamber": {
+      "img": "drowned_cathedral_binding_chamber"
+    },
+    "drowned_cathedral_nerathis_sanctum": {
+      "img": "drowned_cathedral_nerathis_sanctum"
+    },
+    "drowned_monastery_entrance": {
+      "img": "drowned_monastery_entrance"
+    },
+    "drowned_monastery_courtyard": {
+      "img": "drowned_monastery_courtyard"
+    },
+    "drowned_monastery_east_cloister": {
+      "img": "drowned_monastery_east_cloister"
+    },
+    "drowned_monastery_west_cloister": {
+      "img": "drowned_monastery_west_cloister"
+    },
+    "drowned_monastery_scriptorium": {
+      "img": "drowned_monastery_scriptorium"
+    },
+    "drowned_monastery_refectory": {
+      "img": "drowned_monastery_refectory"
+    },
+    "drowned_monastery_kitchen": {
+      "img": "drowned_monastery_kitchen"
+    },
+    "drowned_monastery_prior_quarters": {
+      "img": "drowned_monastery_prior_quarters"
+    },
+    "drowned_monastery_sunken_archive": {
+      "img": "drowned_monastery_sunken_archive"
+    },
+    "drowned_monastery_forbidden_vault": {
+      "img": "drowned_monastery_forbidden_vault"
+    },
+    "drowned_monastery_nave": {
+      "img": "drowned_monastery_nave"
+    },
+    "drowned_monastery_vestry": {
+      "img": "drowned_monastery_vestry"
+    },
+    "drowned_monastery_choir_loft": {
+      "img": "drowned_monastery_choir_loft"
+    },
+    "drowned_monastery_bell_tower_base": {
+      "img": "drowned_monastery_bell_tower_base"
+    },
+    "drowned_monastery_bell_chamber": {
+      "img": "drowned_monastery_bell_chamber"
+    },
+    "drowned_monastery_altar": {
+      "img": "drowned_monastery_altar"
+    },
+    "drowned_monastery_crypt_entrance": {
+      "img": "drowned_monastery_crypt_entrance"
+    },
+    "drowned_monastery_crypt_hall": {
+      "img": "drowned_monastery_crypt_hall"
+    },
+    "drowned_monastery_flooded_tomb": {
+      "img": "drowned_monastery_flooded_tomb"
+    },
+    "drowned_monastery_relic_chamber": {
+      "img": "drowned_monastery_relic_chamber"
+    },
+    "drowned_monastery_ossuary": {
+      "img": "drowned_monastery_ossuary"
+    },
+    "drowned_monastery_abbot_tomb": {
+      "img": "drowned_monastery_abbot_tomb"
+    },
+    "drowned_monastery_drowned_sanctum": {
+      "img": "drowned_monastery_drowned_sanctum"
+    },
+    "drowned_monastery_tidal_prison": {
+      "img": "drowned_monastery_tidal_prison"
+    },
+    "ashwood_edge_ez_entry": {
+      "img": "ashwood_edge_ez_entry"
+    },
+    "ashwood_edge_ez_flooded_nave": {
+      "img": "ashwood_edge_ez_flooded_nave"
+    },
+    "ashwood_edge_ez_vestry": {
+      "img": "ashwood_edge_ez_vestry"
+    },
+    "ashwood_edge_ez_collapsed_choir": {
+      "img": "ashwood_edge_ez_collapsed_choir"
+    },
+    "ashwood_edge_ez_altar_approach": {
+      "img": "ashwood_edge_ez_altar_approach"
+    },
+    "ashwood_edge_ez_reliquary": {
+      "img": "ashwood_edge_ez_reliquary"
+    },
+    "ashwood_edge_ez_confession_pools": {
+      "img": "ashwood_edge_ez_confession_pools"
+    },
+    "ashwood_edge_ez_drowned_altar": {
+      "img": "ashwood_edge_ez_drowned_altar"
+    },
+    "ashwood_edge_ez_crypt_entrance": {
+      "img": "ashwood_edge_ez_crypt_entrance"
+    },
+    "ashwood_edge_ez_inner_sanctum": {
+      "img": "ashwood_edge_ez_inner_sanctum"
+    }
+  },
+  "npcs": {}
+}

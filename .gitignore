@@ -4,8 +4,11 @@
 # Dependencies
 node_modules/
 
-# Player data
+# Player data — exclude saves and live gameplay state
 data/
+# But include world content files
+!data/explore_zones.json
+!data/admin_overrides.json
 
 # OS files
 .DS_Store

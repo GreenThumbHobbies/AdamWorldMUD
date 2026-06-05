@@ -1,0 +1,336 @@
+{
+  "tiles": {
+    "ashwood_edge": "ashwood_edge_ez_entry"
+  },
+  "rooms": {
+    "ashwood_edge_ez_entry": {
+      "name": "Submerged Stone Steps",
+      "desc": "Crumbling steps descend from the fog-shrouded sanctuary entrance into black water. The stonework is ancient, carved with worn symbols of waves and weeping eyes. Cold water laps at your knees, and somewhere below, pale light flickers.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "south": "ashwood_edge_ez_flooded_nave"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "swamp_serpent_1780270356484",
+          "name": "Swamp Serpent",
+          "hp": 20,
+          "maxhp": 20,
+          "atk": 6,
+          "def": 1,
+          "xp": 40,
+          "gold": 8,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_flooded_nave": {
+      "name": "Flooded Nave",
+      "desc": "The grand hall of worship stands half-drowned, stone pews rising from murky water like grave markers. Phosphorescent moss clings to collapsed pillars, casting an eerie green glow. The distant sound of chanting echoes from deeper within.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "north": "ashwood_edge_ez_entry",
+        "east": "ashwood_edge_ez_vestry",
+        "south": "ashwood_edge_ez_altar_approach",
+        "west": "ashwood_edge_ez_collapsed_choir"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "swamp_serpent_1780270356485",
+          "name": "Swamp Serpent",
+          "hp": 20,
+          "maxhp": 20,
+          "atk": 6,
+          "def": 1,
+          "xp": 40,
+          "gold": 8,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_vestry": {
+      "name": "Waterlogged Vestry",
+      "desc": "Rotting ceremonial robes hang from rusted hooks, swaying in currents that have no source. Wooden cabinets have burst open, their contents long dissolved into the murk. A dead priest's skeleton sits slumped against the wall, hands still clasped in prayer.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "west": "ashwood_edge_ez_flooded_nave",
+        "south": "ashwood_edge_ez_reliquary"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "cave_spider_1780270356485",
+          "name": "Cave Spider",
+          "hp": 22,
+          "maxhp": 22,
+          "atk": 6,
+          "def": 2,
+          "xp": 48,
+          "gold": 12,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_collapsed_choir": {
+      "name": "Collapsed Choir Loft",
+      "desc": "The upper gallery has crashed down into the water, creating a maze of shattered wood and bent brass pipes from a great organ. Bubbles rise from somewhere beneath the debris. The wolves above howl, and the sound filters down distorted and mournful.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "east": "ashwood_edge_ez_flooded_nave",
+        "south": "ashwood_edge_ez_confession_pools"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "mine_wraith_1780270356485",
+          "name": "Mine Wraith",
+          "hp": 38,
+          "maxhp": 38,
+          "atk": 10,
+          "def": 2,
+          "xp": 100,
+          "gold": 25,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_altar_approach": {
+      "name": "Altar Approach",
+      "desc": "The water grows deeper here, chest-high and bitterly cold. Pale candles burn beneath the surface, their flames impossible yet unwavering. Stone faces carved into the walls weep dark water from their empty eyes.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "north": "ashwood_edge_ez_flooded_nave",
+        "east": "ashwood_edge_ez_reliquary",
+        "south": "ashwood_edge_ez_drowned_altar",
+        "west": "ashwood_edge_ez_confession_pools"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "drowned_acolyte_1780270356485",
+          "name": "Drowned Acolyte",
+          "hp": 28,
+          "maxhp": 28,
+          "atk": 7,
+          "def": 2,
+          "xp": 55,
+          "gold": 18,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_reliquary": {
+      "name": "Sunken Reliquary",
+      "desc": "Sacred objects drift in sealed glass cases, preserved by ancient enchantments even as the water devours everything else. Finger bones of saints float beside corroded censers. Something large moves in the shadows between the display cases.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "north": "ashwood_edge_ez_vestry",
+        "west": "ashwood_edge_ez_altar_approach"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "cave_spider_1780270356485",
+          "name": "Cave Spider",
+          "hp": 22,
+          "maxhp": 22,
+          "atk": 6,
+          "def": 2,
+          "xp": 48,
+          "gold": 12,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        },
+        {
+          "id": "sanctuary_guardian_1780270356485",
+          "name": "Sanctuary Guardian",
+          "hp": 42,
+          "maxhp": 42,
+          "atk": 9,
+          "def": 4,
+          "xp": 95,
+          "gold": 30,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_confession_pools": {
+      "name": "Confession Pools",
+      "desc": "Small stone alcoves line this chamber, each containing a pool where the faithful once whispered their sins. Now the pools have overflowed and merged into one dark expanse. Whispers still rise from the water—confessions of the long-dead, never absolved.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "north": "ashwood_edge_ez_collapsed_choir",
+        "east": "ashwood_edge_ez_altar_approach",
+        "south": "ashwood_edge_ez_crypt_entrance"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "mine_wraith_1780270356485",
+          "name": "Mine Wraith",
+          "hp": 38,
+          "maxhp": 38,
+          "atk": 10,
+          "def": 2,
+          "xp": 100,
+          "gold": 25,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        },
+        {
+          "id": "drowned_acolyte_1780270356485",
+          "name": "Drowned Acolyte",
+          "hp": 28,
+          "maxhp": 28,
+          "atk": 7,
+          "def": 2,
+          "xp": 55,
+          "gold": 18,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_drowned_altar": {
+      "name": "Drowned Altar",
+      "desc": "The great altar rises from water that reaches your chin, stained black with centuries of accumulated offerings. A spectral priest stands before it, translucent hands raised in endless benediction. The chanting is loudest here, resonating in your bones.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "north": "ashwood_edge_ez_altar_approach",
+        "west": "ashwood_edge_ez_crypt_entrance",
+        "east": "ashwood_edge_ez_inner_sanctum"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "mine_wraith_1780270356485",
+          "name": "Mine Wraith",
+          "hp": 38,
+          "maxhp": 38,
+          "atk": 10,
+          "def": 2,
+          "xp": 100,
+          "gold": 25,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_crypt_entrance": {
+      "name": "Crypt Entrance",
+      "desc": "Stone steps rise from the flood to a raised platform before iron doors green with verdigris. The dead were interred above the waterline, though something has clearly disturbed their rest. Scratch marks cover the inside of the doors.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "north": "ashwood_edge_ez_confession_pools",
+        "east": "ashwood_edge_ez_drowned_altar"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "drowned_acolyte_1780270356485",
+          "name": "Drowned Acolyte",
+          "hp": 28,
+          "maxhp": 28,
+          "atk": 7,
+          "def": 2,
+          "xp": 55,
+          "gold": 18,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    },
+    "ashwood_edge_ez_inner_sanctum": {
+      "name": "Inner Sanctum of the Weeping God",
+      "desc": "The holiest chamber is somehow dry, protected by failing wards that crackle with dying light. A massive statue of a weeping deity dominates the room, tears of black water streaming from its stone eyes. At its feet, the High Priest of Ashvel has risen from death, still bound to his endless vigil.",
+      "zone": "The Drowned Sanctuary of Ashvel",
+      "exits": {
+        "west": "ashwood_edge_ez_drowned_altar"
+      },
+      "exploreZone": "ashwood_edge",
+      "monsters": [
+        {
+          "id": "sanctuary_guardian_1780270356485",
+          "name": "Sanctuary Guardian",
+          "hp": 42,
+          "maxhp": 42,
+          "atk": 9,
+          "def": 4,
+          "xp": 95,
+          "gold": 30,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        },
+        {
+          "id": "high_priest_ashvel_1780270356485",
+          "name": "High Priest Ashvel",
+          "hp": 85,
+          "maxhp": 85,
+          "atk": 15,
+          "def": 5,
+          "xp": 320,
+          "gold": 150,
+          "loot": null,
+          "dead": false,
+          "agi": 5
+        }
+      ],
+      "_ezZone": true
+    }
+  },
+  "items": {
+    "waterlogged prayer beads": {
+      "t": "accessory",
+      "atk": 0,
+      "def": 3,
+      "desc": "Black wooden beads that weep constantly. The whispered prayers of the drowned cling to them still."
+    },
+    "censer of the deep": {
+      "t": "weapon",
+      "atk": 11,
+      "def": 0,
+      "desc": "A bronze censer on a chain, still smoking with incense that smells of salt and decay. Swinging it produces the sound of distant drowning."
+    },
+    "tearstone dagger": {
+      "t": "weapon",
+      "atk": 9,
+      "def": 2,
+      "desc": "A ritual blade carved from a single black gemstone, perpetually slick with moisture that resembles tears."
+    },
+    "robes of the weeping god": {
+      "t": "armor",
+      "atk": 0,
+      "def": 7,
+      "desc": "Heavy ceremonial vestments that never dry. The fabric shifts between grey and black like troubled waters."
+    }
+  }
+}
