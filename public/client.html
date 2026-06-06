@@ -6578,6 +6578,52 @@ function _drawOrcBomb(ctx,x,y,frame){
   else{ctx.fillRect(x-3,y+3,10,4);ctx.fillStyle='#c0c0c0';ctx.fillRect(x-3,y+1,3,4);ctx.fillRect(x+4,y+1,3,4);}
 }
 
+// Pixel-art bat — flies across screen, shoot for shield power-up
+function _drawBat(ctx,x,y,frame){
+  const w=Math.floor(frame/8)%2; // wing flap
+  ctx.fillStyle='#5a1a90';
+  if(w===0){
+    // Wings up
+    ctx.fillRect(x,y+3,6,4);ctx.fillRect(x+2,y,4,4);       // left wing
+    ctx.fillRect(x+16,y+3,6,4);ctx.fillRect(x+16,y,4,4);   // right wing
+  } else {
+    // Wings down
+    ctx.fillRect(x,y+6,6,4);ctx.fillRect(x+2,y+9,4,3);     // left wing
+    ctx.fillRect(x+16,y+6,6,4);ctx.fillRect(x+16,y+9,4,3); // right wing
+  }
+  // Membrane fill
+  ctx.fillStyle='#3a0e60';
+  ctx.fillRect(x+5,y+(w?5:2),5,4);ctx.fillRect(x+12,y+(w?5:2),4,4);
+  // Body
+  ctx.fillStyle='#1e0840';ctx.fillRect(x+8,y+2,6,9);
+  // Ears
+  ctx.fillStyle='#5a1a90';ctx.fillRect(x+8,y,2,3);ctx.fillRect(x+12,y,2,3);
+  // Red eyes
+  ctx.fillStyle='#ff2020';ctx.fillRect(x+9,y+4,2,2);ctx.fillRect(x+12,y+4,2,2);
+  // Fangs
+  ctx.fillStyle='#f0f0f0';ctx.fillRect(x+10,y+10,1,2);ctx.fillRect(x+12,y+10,1,2);
+}
+
+// Pulsing shield ring around the elf
+function _drawShield(ctx,player,frame){
+  const cx=player.x+player.w/2,cy=player.y+player.h/2;
+  const pulse=0.5+0.25*Math.sin(frame*0.18);
+  ctx.save();
+  ctx.strokeStyle=`rgba(0,220,255,${pulse})`;ctx.lineWidth=3;
+  ctx.beginPath();ctx.arc(cx,cy,26,0,Math.PI*2);ctx.stroke();
+  ctx.strokeStyle=`rgba(160,240,255,${pulse*0.55})`;ctx.lineWidth=2;
+  ctx.beginPath();ctx.arc(cx,cy,22,0,Math.PI*2);ctx.stroke();
+  ctx.fillStyle=`rgba(0,200,255,${pulse*0.07})`;
+  ctx.beginPath();ctx.arc(cx,cy,24,0,Math.PI*2);ctx.fill();
+  ctx.restore();
+}
+
+// Level-based difficulty
+function _levelSpeed(lvl){return 1.0+(lvl-1)*0.16;}
+function _levelBombInterval(lvl){return Math.max(14,48-Math.floor((lvl-1)*1.8));}
+const INV_MAX_LEVEL=20;
+const BAT_SHIELD_FRAMES=600; // 10 seconds at ~60fps
+
 function startInvaders(){
   const canvas=document.getElementById('arc-canvas');
   canvas.width=ARC_W;canvas.height=ARC_H;
@@ -6586,17 +6632,18 @@ function startInvaders(){
     invaders.push({x:36+c*(INV_W+INV_XGAP),y:26+r*(INV_H+INV_YGAP),alive:true,r,c});
   _inv={
     canvas,ctx:canvas.getContext('2d'),
-    player:{x:ARC_W/2-19,y:ARC_H-44,w:38,h:26,lives:3,cooldown:0},
+    player:{x:ARC_W/2-19,y:ARC_H-44,w:38,h:26,lives:3,cooldown:0,shieldFrames:0},
     invaders,bullets:[],bombs:[],
     blockers:_initBlockers(),
-    dir:1,speed:1.2,
-    score:0,wave:1,frame:0,state:'play',
+    bat:null,batSpawnIn:420+Math.floor(Math.random()*360),
+    dir:1,speed:_levelSpeed(1),bombInterval:_levelBombInterval(1),
+    score:0,level:1,frame:0,state:'play',
     keys:{},bombTimer:0
   };
   document.getElementById('arc-score').textContent='0';
   document.getElementById('arc-lives').textContent='♥♥♥';
-  document.getElementById('arc-wave').textContent='1';
-  document.getElementById('arc-msg').textContent='← → to move · SPACE to fire arrows';
+  document.getElementById('arc-wave').textContent='1/20';
+  document.getElementById('arc-msg').textContent='← → move · SPACE fire · Shoot the bat for a SHIELD!';
   _arc.raf=requestAnimationFrame(invadersLoop);
 }
 
@@ -6605,6 +6652,7 @@ function invadersLoop(){
   const {ctx,player,invaders,bullets,bombs,blockers}=_inv;
   _inv.frame++;
   const fr=_inv.frame;
+
   // Input
   if(_inv.keys['ArrowLeft']||_inv.keys['a'])player.x=Math.max(0,player.x-4);
   if(_inv.keys['ArrowRight']||_inv.keys['d'])player.x=Math.min(ARC_W-player.w,player.x+4);
@@ -6613,24 +6661,59 @@ function invadersLoop(){
     player.cooldown=18;
   }
   if(player.cooldown>0)player.cooldown--;
+
+  // Shield timer countdown
+  if(player.shieldFrames>0)player.shieldFrames--;
+
+  // ── Bat logic ────────────────────────────────────────────────────────────
+  if(!_inv.bat){
+    _inv.batSpawnIn--;
+    if(_inv.batSpawnIn<=0){
+      const goRight=Math.random()<0.5;
+      _inv.bat={x:goRight?-24:ARC_W+4,y:Math.floor(ARC_H*0.28+Math.random()*40),
+                dir:goRight?1:-1,spd:2.8+_inv.level*0.08,w:22,h:14};
+      _inv.batSpawnIn=480+Math.floor(Math.random()*400);
+    }
+  } else {
+    _inv.bat.x+=_inv.bat.dir*_inv.bat.spd;
+    if(_inv.bat.x>ARC_W+30||_inv.bat.x<-30)_inv.bat=null;
+  }
+
   // Move invaders
   const alive=invaders.filter(i=>i.alive);
-  if(!alive.length){invadersNextWave();return;}
+  if(!alive.length){invadersNextLevel();return;}
   let hitEdge=false;
   for(const inv of alive){
     inv.x+=_inv.dir*_inv.speed;
     if(inv.x+INV_W>ARC_W-8||inv.x<8)hitEdge=true;
   }
   if(hitEdge){_inv.dir*=-1;for(const inv of alive)inv.y+=14;}
+
   // Move bullets & bombs
   for(const b of bullets)b.y-=b.spd;
   _inv.bombTimer++;
-  if(_inv.bombTimer>48&&alive.length){
+  if(_inv.bombTimer>_inv.bombInterval&&alive.length){
     _inv.bombTimer=0;
     const shooter=alive[Math.floor(Math.random()*alive.length)];
-    bombs.push({x:shooter.x+INV_W/2-2,y:shooter.y+INV_H,w:5,h:10,spd:3+_inv.wave*0.2});
+    bombs.push({x:shooter.x+INV_W/2-2,y:shooter.y+INV_H,w:5,h:10,spd:2.8+_inv.level*0.18});
   }
   for(const b of bombs)b.y+=b.spd;
+
+  // Collisions: arrows vs bat (shield power-up!)
+  if(_inv.bat){
+    for(let bi=bullets.length-1;bi>=0;bi--){
+      const blt=bullets[bi];const bat=_inv.bat;
+      if(blt.x<bat.x+bat.w&&blt.x+blt.w>bat.x&&blt.y<bat.y+bat.h&&blt.y+blt.h>bat.y){
+        bullets.splice(bi,1);_inv.bat=null;
+        player.shieldFrames=BAT_SHIELD_FRAMES;
+        _inv.score+=50;
+        document.getElementById('arc-score').textContent=_inv.score;
+        document.getElementById('arc-msg').textContent='🦇 Bat hit! SHIELD active for 10 seconds!';
+        break;
+      }
+    }
+  }
+
   // Collisions: arrows vs blockers, then invaders
   for(let bi=bullets.length-1;bi>=0;bi--){
     const blt=bullets[bi];let hit=false;
@@ -6646,7 +6729,8 @@ function invadersLoop(){
       }
     }
   }
-  // Collisions: orc bombs vs blockers, then player
+
+  // Collisions: orc bombs vs blockers, then player (shield blocks damage)
   for(let bi=bombs.length-1;bi>=0;bi--){
     const bm=bombs[bi];let hit=false;
     for(const bl of blockers){
@@ -6655,65 +6739,105 @@ function invadersLoop(){
     }
     if(hit)continue;
     if(bm.x<player.x+player.w&&bm.x+bm.w>player.x&&bm.y<player.y+player.h&&bm.y+bm.h>player.y){
-      bombs.splice(bi,1);player.lives--;
-      document.getElementById('arc-lives').textContent='♥'.repeat(Math.max(0,player.lives))+'♡'.repeat(Math.max(0,3-player.lives));
-      if(player.lives<=0){invadersEnd(false);return;}
+      bombs.splice(bi,1);
+      if(player.shieldFrames>0){
+        // Shield absorbs the hit — flash message
+        document.getElementById('arc-msg').textContent=`🛡 Shield blocked! ${Math.ceil(player.shieldFrames/60)}s remaining`;
+      } else {
+        player.lives--;
+        document.getElementById('arc-lives').textContent='♥'.repeat(Math.max(0,player.lives))+'♡'.repeat(Math.max(0,3-player.lives));
+        if(player.lives<=0){invadersEnd(false);return;}
+      }
     }
   }
+
   // Invaders reach player
   for(const inv of alive){if(inv.y+INV_H>=player.y){invadersEnd(false);return;}}
+
   // Cleanup off-screen
   for(let i=bullets.length-1;i>=0;i--)if(bullets[i].y<-30)bullets.splice(i,1);
   for(let i=bombs.length-1;i>=0;i--)if(bombs[i].y>ARC_H+20)bombs.splice(i,1);
 
   // ── DRAW ──────────────────────────────────────────────────────────────────
-  // Night sky background
   ctx.fillStyle='#060214';ctx.fillRect(0,0,ARC_W,ARC_H);
   // Stars (deterministic)
   ctx.fillStyle='#ffffff';
   for(let i=0;i<50;i++){const sx=(i*137+i*i*31)%ARC_W,sy=(i*97+i*i*73)%(ARC_H-90);ctx.fillRect(sx,sy,1,1);}
   // Moon
   ctx.fillStyle='#e8e4b0';ctx.fillRect(ARC_W-38,8,18,18);
-  ctx.fillStyle='#060214';ctx.fillRect(ARC_W-32,8,14,14); // crescent cutout
+  ctx.fillStyle='#060214';ctx.fillRect(ARC_W-32,8,14,14);
   // Ground
   ctx.fillStyle='#1c3a10';ctx.fillRect(0,ARC_H-6,ARC_W,6);
   ctx.fillStyle='#254a18';ctx.fillRect(0,ARC_H-8,ARC_W,2);
-  // Castle wall blockers
+  // Blockers
   _drawBlockers(ctx,blockers);
-  // Orc invaders
+  // Orcs
   for(const inv of invaders){if(!inv.alive)continue;_drawOrc(ctx,inv.x,inv.y,inv.r,fr);}
-  // Elf player
+  // Bat (draw with purple tint hint above it)
+  if(_inv.bat){
+    ctx.fillStyle='rgba(120,40,200,0.18)';
+    ctx.fillRect(_inv.bat.x-4,_inv.bat.y-6,_inv.bat.w+8,_inv.bat.h+8);
+    _drawBat(ctx,_inv.bat.x,_inv.bat.y,fr);
+    // Label
+    ctx.font='8px monospace';ctx.fillStyle='#c080ff';ctx.textAlign='center';
+    ctx.fillText('SHIELD',_inv.bat.x+11,_inv.bat.y-2);
+    ctx.textAlign='left';
+  }
+  // Shield effect (drawn before elf so it's behind)
+  if(player.shieldFrames>0)_drawShield(ctx,player,fr);
+  // Elf
   _drawElf(ctx,player.x,player.y,fr);
   // Arrows
   for(const b of bullets)_drawArrow(ctx,b.x,b.y);
-  // Orc axes/bombs
+  // Orc axes
   for(const b of bombs)_drawOrcBomb(ctx,b.x,b.y,fr);
+  // Shield timer HUD (top-left)
+  if(player.shieldFrames>0){
+    const secs=Math.ceil(player.shieldFrames/60);
+    ctx.font='bold 10px monospace';ctx.fillStyle='#00ddff';ctx.textAlign='left';
+    ctx.fillText(`🛡 ${secs}s`,6,14);
+  }
+  // Level progress bar (bottom-right)
+  ctx.font='9px monospace';ctx.fillStyle='#6040a0';ctx.textAlign='right';
+  ctx.fillText(`LVL ${_inv.level}/${INV_MAX_LEVEL}`,ARC_W-6,ARC_H-12);
+  ctx.textAlign='left';
 
   _arc.raf=requestAnimationFrame(invadersLoop);
 }
 
-function invadersNextWave(){
-  _inv.wave++;
-  document.getElementById('arc-wave').textContent=_inv.wave;
-  document.getElementById('arc-msg').textContent=`Wave ${_inv.wave}! The orc horde grows bolder!`;
-  _inv.speed+=0.35;_inv.bullets=[];_inv.bombs=[];
+function invadersNextLevel(){
+  _inv.level++;
+  if(_inv.level>INV_MAX_LEVEL){invadersEnd(true);return;}
+  _inv.speed=_levelSpeed(_inv.level);
+  _inv.bombInterval=_levelBombInterval(_inv.level);
+  _inv.bullets=[];_inv.bombs=[];_inv.bat=null;
+  document.getElementById('arc-wave').textContent=`${_inv.level}/20`;
+  const msgs=['','The orcs regroup!','More orcs charge!','The horde advances!','Warchief spotted!',
+    'Orc shamans chant!','Berserkers rage!','Siege engines roll!','The dark army marches!',
+    'Black banners fly!','War drums thunder!','Orc catapults fire!','The walls are breached!',
+    'Elite guards attack!','Death knights ride!','The lich commands!','Void orcs emerge!',
+    'Shadow horde rises!','The orc king stirs!','FINAL WAVE — HOLD THE WALLS!'];
+  document.getElementById('arc-msg').textContent=`Level ${_inv.level}! ${msgs[_inv.level-1]||''}`;
   _inv.invaders=[];
   for(let r=0;r<INV_ROWS;r++)for(let c=0;c<INV_COLS;c++)
     _inv.invaders.push({x:36+c*(INV_W+INV_XGAP),y:26+r*(INV_H+INV_YGAP),alive:true,r,c});
   _inv.dir=1;
-  _inv.blockers=_initBlockers(); // fresh castle walls each wave
+  _inv.blockers=_initBlockers();
+  _inv.batSpawnIn=380+Math.floor(Math.random()*300);
 }
 
 function invadersEnd(won){
   _arc.active=false;if(_arc.raf){cancelAnimationFrame(_arc.raf);_arc.raf=null;}
   const ctx=_inv.ctx;
-  ctx.fillStyle='rgba(0,0,0,.78)';ctx.fillRect(0,0,ARC_W,ARC_H);
+  ctx.fillStyle='rgba(0,0,0,.82)';ctx.fillRect(0,0,ARC_W,ARC_H);
   ctx.font='bold 28px "Cinzel",serif';ctx.textAlign='center';
   ctx.fillStyle=won?'#60e080':'#e06060';
-  ctx.fillText(won?'VICTORY!':'GAME OVER',ARC_W/2,ARC_H/2-20);
-  ctx.font='14px monospace';ctx.fillStyle='#c0a0e0';
-  ctx.fillText(`Score: ${_inv.score}`,ARC_W/2,ARC_H/2+14);
-  document.getElementById('arc-msg').textContent=won?'All orcs vanquished! The realm is safe!':'The orc horde overwhelms the walls!';
+  ctx.fillText(won?'REALM SAVED!':'THE WALLS HAVE FALLEN',ARC_W/2,ARC_H/2-30);
+  ctx.font='bold 14px "Cinzel",serif';ctx.fillStyle='#e0c860';
+  ctx.fillText(`Level ${_inv.level} / ${INV_MAX_LEVEL}`,ARC_W/2,ARC_H/2-4);
+  ctx.font='13px monospace';ctx.fillStyle='#c0a0e0';
+  ctx.fillText(`Score: ${_inv.score}`,ARC_W/2,ARC_H/2+18);
+  document.getElementById('arc-msg').textContent=won?'All 20 waves repelled! The realm stands!':'The orc horde breaks through!';
   if(ws&&ws.readyState===WebSocket.OPEN){
     ws.send(JSON.stringify({type:'action',action:{type:'arcade_score',game:'invaders',score:_inv.score,won}}));
   }
