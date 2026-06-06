@@ -6444,37 +6444,172 @@ function openC64(){
 
 // ── ORC INVADERS (Space Invaders clone) ────────────────────────────────────
 const ARC_W=480,ARC_H=320;
-const INV_W=36,INV_H=24,INV_XGAP=12,INV_YGAP=10,INV_ROWS=4,INV_COLS=8;
+const INV_W=26,INV_H=18,INV_XGAP=16,INV_YGAP=12,INV_ROWS=4,INV_COLS=9;
 let _inv={};
+
+// Castle wall blocker constants
+const STONE_W=13,STONE_H=8,BLKR_COLS=4,BLKR_ROWS=3;
+const BLOCKER_XS=[44,148,264,368];
+const BLOCKER_Y=ARC_H-78;
+
+function _initBlockers(){
+  return BLOCKER_XS.map(bx=>{
+    const stones=[];
+    for(let r=0;r<BLKR_ROWS;r++)for(let c=0;c<BLKR_COLS;c++){
+      // Remove top corners for battlement notch look
+      if(r===0&&(c===0||c===BLKR_COLS-1))continue;
+      stones.push({col:c,row:r,hp:3});
+    }
+    return {x:bx,stones};
+  });
+}
+
+function _blocker_hit(b,rx,ry,rw,rh){
+  for(let i=0;i<b.stones.length;i++){
+    const s=b.stones[i];if(s.hp<=0)continue;
+    const sx=b.x+s.col*STONE_W,sy=BLOCKER_Y+s.row*STONE_H;
+    if(rx<sx+STONE_W&&rx+rw>sx&&ry<sy+STONE_H&&ry+rh>sy)return i;
+  }
+  return -1;
+}
+
+function _drawBlockers(ctx,blockers){
+  for(const b of blockers){
+    for(const s of b.stones){
+      if(s.hp<=0)continue;
+      const sx=b.x+s.col*STONE_W,sy=BLOCKER_Y+s.row*STONE_H;
+      // Stone colour degrades with damage: solid → cracked → rubble
+      ctx.fillStyle=s.hp===3?'#7a6a4a':s.hp===2?'#5a4a32':'#3e2e1a';
+      ctx.fillRect(sx,sy,STONE_W-1,STONE_H-1);
+      // Mortar lines
+      ctx.fillStyle='#2a1e0e';
+      ctx.fillRect(sx,sy,STONE_W-1,1);
+      ctx.fillRect(sx,sy,1,STONE_H-1);
+      // Crack marks on damaged stones
+      if(s.hp===2){ctx.fillStyle='rgba(0,0,0,0.55)';ctx.fillRect(sx+5,sy+2,1,4);}
+      if(s.hp===1){
+        ctx.fillStyle='rgba(0,0,0,0.7)';
+        ctx.fillRect(sx+3,sy+1,1,5);ctx.fillRect(sx+7,sy+2,1,4);ctx.fillRect(sx+4,sy+4,3,1);
+      }
+    }
+  }
+}
+
+// Pixel-art orc — 4 types by row
+function _drawOrc(ctx,x,y,row,frame){
+  const bc=['#b82010','#1a7a28','#7228b0','#a06010'][row%4]; // warchief/grunt/shaman/berserker
+  const hc=['#6a0808','#0e4a18','#42107a','#683808'][row%4]; // helmet shade
+  const ec=['#ffe000','#ff5500','#00ffcc','#ff8800'][row%4]; // eye glow
+  const a=Math.floor(frame/14)%2; // arm swing
+  // Helmet / skull cap
+  ctx.fillStyle=hc;ctx.fillRect(x+5,y,16,4);
+  // Head (green skin)
+  ctx.fillStyle='#4a8a30';ctx.fillRect(x+4,y+3,18,9);
+  // Face overlay (orc skin tone)
+  ctx.fillStyle=bc;ctx.fillRect(x+5,y+4,16,7);
+  // Brow ridge
+  ctx.fillStyle=hc;ctx.fillRect(x+5,y+4,16,2);
+  // Eyes
+  ctx.fillStyle=ec;ctx.fillRect(x+7,y+6,4,3);ctx.fillRect(x+15,y+6,4,3);
+  ctx.fillStyle='#000';ctx.fillRect(x+8,y+7,2,2);ctx.fillRect(x+16,y+7,2,2);
+  // Nose
+  ctx.fillStyle='#2a1a08';ctx.fillRect(x+11,y+9,4,2);
+  // Tusks
+  ctx.fillStyle='#f0e890';ctx.fillRect(x+8,y+11,3,5);ctx.fillRect(x+15,y+11,3,5);
+  // Body / armour
+  ctx.fillStyle=bc;ctx.fillRect(x+4,y+12,18,6);
+  ctx.fillStyle=hc;ctx.fillRect(x+4,y+12,18,2); // shoulder plate
+  // Arms (swing animation)
+  ctx.fillStyle='#4a8a30';
+  ctx.fillRect(x+(a?0:1),y+12,4,5);
+  ctx.fillRect(x+(a?22:21),y+12,4,5);
+  // Axe on left arm
+  ctx.fillStyle='#888';ctx.fillRect(x+(a?-2:0),y+11,2,7);
+  ctx.fillStyle='#bbb';ctx.fillRect(x+(a?-4:0),y+10,4,3);
+}
+
+// Pixel-art elf archer
+function _drawElf(ctx,px,py,frame){
+  // Boots
+  ctx.fillStyle='#4a2810';ctx.fillRect(px+9,py+22,7,5);ctx.fillRect(px+21,py+22,7,5);
+  // Legs
+  ctx.fillStyle='#2a5030';ctx.fillRect(px+10,py+14,6,10);ctx.fillRect(px+22,py+14,6,10);
+  // Tunic body
+  ctx.fillStyle='#28884a';ctx.fillRect(px+8,py+8,22,12);
+  // Tunic trim
+  ctx.fillStyle='#1a5a32';ctx.fillRect(px+8,py+8,2,10);ctx.fillRect(px+28,py+8,2,10);
+  ctx.fillRect(px+8,py+18,22,2);
+  // Neck
+  ctx.fillStyle='#f0c880';ctx.fillRect(px+16,py+5,6,5);
+  // Head
+  ctx.fillStyle='#f0c880';ctx.fillRect(px+13,py-2,12,10);
+  // Pointed ears
+  ctx.fillStyle='#f0c880';
+  ctx.fillRect(px+10,py+1,3,5);ctx.fillRect(px+25,py+1,3,5);
+  ctx.fillRect(px+9,py,2,4);ctx.fillRect(px+26,py,2,4);
+  // Hair (golden)
+  ctx.fillStyle='#d4a020';ctx.fillRect(px+13,py-4,12,4);ctx.fillRect(px+13,py-2,2,8);ctx.fillRect(px+23,py-2,2,6);
+  // Eyes
+  ctx.fillStyle='#20c8ff';ctx.fillRect(px+16,py+1,3,2);ctx.fillRect(px+21,py+1,3,2);
+  // Bow arm reaching left
+  ctx.fillStyle='#f0c880';ctx.fillRect(px+4,py+7,10,3);
+  // Bow stave
+  ctx.fillStyle='#a05a20';ctx.fillRect(px+2,py-4,3,28);
+  // Bow curve detail
+  ctx.fillStyle='#c07830';ctx.fillRect(px+1,py-2,2,4);ctx.fillRect(px+1,py+20,2,4);
+  // Bowstring
+  ctx.fillStyle='#e0dca0';
+  for(let i=0;i<26;i+=2)ctx.fillRect(px+5,py-4+i,1,1);
+}
+
+// Arrow projectile
+function _drawArrow(ctx,x,y){
+  ctx.fillStyle='#c89848';ctx.fillRect(x+1,y+3,2,14); // shaft
+  ctx.fillStyle='#b8b8b8';ctx.fillRect(x,y,4,4);ctx.fillRect(x+1,y-2,2,3); // head
+  ctx.fillStyle='#d03020';ctx.fillRect(x,y+15,2,4); // fletching left
+  ctx.fillStyle='#e08020';ctx.fillRect(x+2,y+15,2,4); // fletching right
+}
+
+// Thrown axe / bomb from orcs
+function _drawOrcBomb(ctx,x,y,frame){
+  const spin=Math.floor(frame/5)%4;
+  ctx.fillStyle='#909090';
+  if(spin<2){ctx.fillRect(x,y,4,10);ctx.fillStyle='#c0c0c0';ctx.fillRect(x-2,y,4,3);ctx.fillRect(x-2,y+7,4,3);}
+  else{ctx.fillRect(x-3,y+3,10,4);ctx.fillStyle='#c0c0c0';ctx.fillRect(x-3,y+1,3,4);ctx.fillRect(x+4,y+1,3,4);}
+}
+
 function startInvaders(){
   const canvas=document.getElementById('arc-canvas');
   canvas.width=ARC_W;canvas.height=ARC_H;
   const invaders=[];
   for(let r=0;r<INV_ROWS;r++)for(let c=0;c<INV_COLS;c++)
-    invaders.push({x:50+c*(INV_W+INV_XGAP),y:30+r*(INV_H+INV_YGAP),alive:true,r,c});
+    invaders.push({x:36+c*(INV_W+INV_XGAP),y:26+r*(INV_H+INV_YGAP),alive:true,r,c});
   _inv={
     canvas,ctx:canvas.getContext('2d'),
-    player:{x:ARC_W/2-20,y:ARC_H-36,w:40,h:18,lives:3,cooldown:0},
+    player:{x:ARC_W/2-19,y:ARC_H-44,w:38,h:26,lives:3,cooldown:0},
     invaders,bullets:[],bombs:[],
-    dir:1,speed:1.2,dropY:0,nextDrop:ARC_H*.12,
+    blockers:_initBlockers(),
+    dir:1,speed:1.2,
     score:0,wave:1,frame:0,state:'play',
     keys:{},bombTimer:0
   };
   document.getElementById('arc-score').textContent='0';
   document.getElementById('arc-lives').textContent='♥♥♥';
   document.getElementById('arc-wave').textContent='1';
-  document.getElementById('arc-msg').textContent='← → to move · SPACE to fire';
+  document.getElementById('arc-msg').textContent='← → to move · SPACE to fire arrows';
   _arc.raf=requestAnimationFrame(invadersLoop);
 }
+
 function invadersLoop(){
   if(!_arc.active||_arc.game!=='invaders')return;
-  const {ctx,player,invaders,bullets,bombs}=_inv;
+  const {ctx,player,invaders,bullets,bombs,blockers}=_inv;
   _inv.frame++;
+  const fr=_inv.frame;
   // Input
   if(_inv.keys['ArrowLeft']||_inv.keys['a'])player.x=Math.max(0,player.x-4);
   if(_inv.keys['ArrowRight']||_inv.keys['d'])player.x=Math.min(ARC_W-player.w,player.x+4);
   if((_inv.keys[' ']||_inv.keys['Space'])&&player.cooldown===0){
-    bullets.push({x:player.x+player.w/2-2,y:player.y,w:4,h:12,spd:8});
+    bullets.push({x:player.x+4,y:player.y-8,w:4,h:18,spd:9});
     player.cooldown=18;
   }
   if(player.cooldown>0)player.cooldown--;
@@ -6487,90 +6622,98 @@ function invadersLoop(){
     if(inv.x+INV_W>ARC_W-8||inv.x<8)hitEdge=true;
   }
   if(hitEdge){_inv.dir*=-1;for(const inv of alive)inv.y+=14;}
-  // Move bullets
+  // Move bullets & bombs
   for(const b of bullets)b.y-=b.spd;
-  // Random bombs from invaders
   _inv.bombTimer++;
-  if(_inv.bombTimer>50&&alive.length){
+  if(_inv.bombTimer>48&&alive.length){
     _inv.bombTimer=0;
     const shooter=alive[Math.floor(Math.random()*alive.length)];
-    bombs.push({x:shooter.x+18,y:shooter.y+INV_H,w:4,h:10,spd:3});
+    bombs.push({x:shooter.x+INV_W/2-2,y:shooter.y+INV_H,w:5,h:10,spd:3+_inv.wave*0.2});
   }
   for(const b of bombs)b.y+=b.spd;
-  // Collisions: bullets vs invaders
+  // Collisions: arrows vs blockers, then invaders
   for(let bi=bullets.length-1;bi>=0;bi--){
-    const blt=bullets[bi];
+    const blt=bullets[bi];let hit=false;
+    for(const bl of blockers){
+      const si=_blocker_hit(bl,blt.x,blt.y,blt.w,blt.h);
+      if(si>=0){bl.stones[si].hp--;if(bl.stones[si].hp<=0)bl.stones[si].hp=0;bullets.splice(bi,1);hit=true;break;}
+    }
+    if(hit)continue;
     for(const inv of alive){
       if(blt.x<inv.x+INV_W&&blt.x+blt.w>inv.x&&blt.y<inv.y+INV_H&&blt.y+blt.h>inv.y){
-        inv.alive=false;bullets.splice(bi,1);_inv.score+=10;
+        inv.alive=false;bullets.splice(bi,1);_inv.score+=10*(inv.r+1);
         document.getElementById('arc-score').textContent=_inv.score;break;
       }
     }
   }
-  // Collisions: bombs vs player
+  // Collisions: orc bombs vs blockers, then player
   for(let bi=bombs.length-1;bi>=0;bi--){
-    const bm=bombs[bi];
+    const bm=bombs[bi];let hit=false;
+    for(const bl of blockers){
+      const si=_blocker_hit(bl,bm.x,bm.y,bm.w,bm.h);
+      if(si>=0){bl.stones[si].hp--;if(bl.stones[si].hp<=0)bl.stones[si].hp=0;bombs.splice(bi,1);hit=true;break;}
+    }
+    if(hit)continue;
     if(bm.x<player.x+player.w&&bm.x+bm.w>player.x&&bm.y<player.y+player.h&&bm.y+bm.h>player.y){
       bombs.splice(bi,1);player.lives--;
-      const h='♥'.repeat(Math.max(0,player.lives))+'♡'.repeat(Math.max(0,3-player.lives));
-      document.getElementById('arc-lives').textContent=h;
+      document.getElementById('arc-lives').textContent='♥'.repeat(Math.max(0,player.lives))+'♡'.repeat(Math.max(0,3-player.lives));
       if(player.lives<=0){invadersEnd(false);return;}
     }
   }
-  // Invaders reach bottom
+  // Invaders reach player
   for(const inv of alive){if(inv.y+INV_H>=player.y){invadersEnd(false);return;}}
   // Cleanup off-screen
-  for(let i=bullets.length-1;i>=0;i--)if(bullets[i].y<-20)bullets.splice(i,1);
+  for(let i=bullets.length-1;i>=0;i--)if(bullets[i].y<-30)bullets.splice(i,1);
   for(let i=bombs.length-1;i>=0;i--)if(bombs[i].y>ARC_H+20)bombs.splice(i,1);
-  // Draw
-  ctx.fillStyle='#000';ctx.fillRect(0,0,ARC_W,ARC_H);
-  // Draw player (ship shape)
-  ctx.fillStyle='#80c0e0';
-  ctx.fillRect(player.x+14,player.y-8,12,8);
-  ctx.fillRect(player.x,player.y,player.w,player.h);
-  // Draw invaders
-  for(const inv of invaders){
-    if(!inv.alive)continue;
-    const colors=['#ff6040','#ff9040','#c060d0','#60c0ff'];
-    ctx.fillStyle=colors[inv.r]||'#80c080';
-    // Body
-    ctx.fillRect(inv.x+6,inv.y+2,INV_W-12,INV_H-4);
-    // Eyes
-    ctx.fillStyle='#000';ctx.fillRect(inv.x+9,inv.y+6,5,4);ctx.fillRect(inv.x+INV_W-14,inv.y+6,5,4);
-    // Antenna
-    ctx.fillStyle=colors[inv.r]||'#80c080';ctx.fillRect(inv.x+8,inv.y,3,4);ctx.fillRect(inv.x+INV_W-11,inv.y,3,4);
-  }
-  // Draw bullets
-  ctx.fillStyle='#e8d080';
-  for(const b of bullets)ctx.fillRect(b.x,b.y,b.w,b.h);
-  // Draw bombs
-  ctx.fillStyle='#ff4040';
-  for(const b of bombs)ctx.fillRect(b.x,b.y,b.w,b.h);
-  // Ground line
-  ctx.fillStyle='#3a2060';ctx.fillRect(0,ARC_H-8,ARC_W,2);
+
+  // ── DRAW ──────────────────────────────────────────────────────────────────
+  // Night sky background
+  ctx.fillStyle='#060214';ctx.fillRect(0,0,ARC_W,ARC_H);
+  // Stars (deterministic)
+  ctx.fillStyle='#ffffff';
+  for(let i=0;i<50;i++){const sx=(i*137+i*i*31)%ARC_W,sy=(i*97+i*i*73)%(ARC_H-90);ctx.fillRect(sx,sy,1,1);}
+  // Moon
+  ctx.fillStyle='#e8e4b0';ctx.fillRect(ARC_W-38,8,18,18);
+  ctx.fillStyle='#060214';ctx.fillRect(ARC_W-32,8,14,14); // crescent cutout
+  // Ground
+  ctx.fillStyle='#1c3a10';ctx.fillRect(0,ARC_H-6,ARC_W,6);
+  ctx.fillStyle='#254a18';ctx.fillRect(0,ARC_H-8,ARC_W,2);
+  // Castle wall blockers
+  _drawBlockers(ctx,blockers);
+  // Orc invaders
+  for(const inv of invaders){if(!inv.alive)continue;_drawOrc(ctx,inv.x,inv.y,inv.r,fr);}
+  // Elf player
+  _drawElf(ctx,player.x,player.y,fr);
+  // Arrows
+  for(const b of bullets)_drawArrow(ctx,b.x,b.y);
+  // Orc axes/bombs
+  for(const b of bombs)_drawOrcBomb(ctx,b.x,b.y,fr);
+
   _arc.raf=requestAnimationFrame(invadersLoop);
 }
+
 function invadersNextWave(){
   _inv.wave++;
   document.getElementById('arc-wave').textContent=_inv.wave;
-  document.getElementById('arc-msg').textContent=`Wave ${_inv.wave}! Orcs grow bolder!`;
-  _inv.speed+=0.4;_inv.bullets=[];_inv.bombs=[];
+  document.getElementById('arc-msg').textContent=`Wave ${_inv.wave}! The orc horde grows bolder!`;
+  _inv.speed+=0.35;_inv.bullets=[];_inv.bombs=[];
   _inv.invaders=[];
   for(let r=0;r<INV_ROWS;r++)for(let c=0;c<INV_COLS;c++)
-    _inv.invaders.push({x:50+c*(INV_W+INV_XGAP),y:30+r*(INV_H+INV_YGAP),alive:true,r,c});
+    _inv.invaders.push({x:36+c*(INV_W+INV_XGAP),y:26+r*(INV_H+INV_YGAP),alive:true,r,c});
   _inv.dir=1;
+  _inv.blockers=_initBlockers(); // fresh castle walls each wave
 }
+
 function invadersEnd(won){
   _arc.active=false;if(_arc.raf){cancelAnimationFrame(_arc.raf);_arc.raf=null;}
   const ctx=_inv.ctx;
-  ctx.fillStyle='rgba(0,0,0,.75)';ctx.fillRect(0,0,ARC_W,ARC_H);
+  ctx.fillStyle='rgba(0,0,0,.78)';ctx.fillRect(0,0,ARC_W,ARC_H);
   ctx.font='bold 28px "Cinzel",serif';ctx.textAlign='center';
   ctx.fillStyle=won?'#60e080':'#e06060';
   ctx.fillText(won?'VICTORY!':'GAME OVER',ARC_W/2,ARC_H/2-20);
   ctx.font='14px monospace';ctx.fillStyle='#c0a0e0';
   ctx.fillText(`Score: ${_inv.score}`,ARC_W/2,ARC_H/2+14);
-  document.getElementById('arc-msg').textContent=won?'All orcs vanquished!':'The orc horde overwhelms you!';
-  // Award XP on server
+  document.getElementById('arc-msg').textContent=won?'All orcs vanquished! The realm is safe!':'The orc horde overwhelms the walls!';
   if(ws&&ws.readyState===WebSocket.OPEN){
     ws.send(JSON.stringify({type:'action',action:{type:'arcade_score',game:'invaders',score:_inv.score,won}}));
   }
